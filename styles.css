@@ -1,0 +1,87 @@
+.logo {
+    max-width: 100%;
+    border-radius: 50%;
+    
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
+h2 {
+    color: #024873;
+}
+
+.links__item {
+    display: block;
+    max-width: 550px;
+    margin: 0 auto 15px;
+    margin-bottom: 5px;
+    padding: 15px 20px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    color: black;
+    font-family: Futura, sans-serif;
+    text-align: center;
+
+}
+
+.user-profile__social-icon {
+    padding: 5px;
+    border-radius: 5px;
+    width: 36px;
+    height: 36px;
+}
+
+.social-media-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.links__item__photo {
+    border-radius: 50%;
+    max-width: 8%;
+    position: absolute;
+    left: 25px;
+    top: 19px;
+}
+
+.links__item:hover{ 
+    position: relative; 
+    bottom: -2px;
+    right: -2px;
+} 
+
+.links__item .links__item--event {
+    border-bottom: 3px solid ;
+    box-shadow: 10px 10px #0e5454;
+    border-radius: 25px;
+    border: 2px solid #0e5454;
+    background-color: #ED6CFD;
+    }
+.links__item .links__item--video {
+        border-bottom: 3px solid #ED6CFD;
+        box-shadow: inset 0 -4px 0 #ED6CFD;
+        border-radius: 25px;
+        border: 2px solid #ED6CFD;
+        background-color: #ED6CFD;
+        }
+    
+body {
+    background-image: url("./assets/images/background.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-color: lightgray;
+    background-color: #15FFDC;
+}
